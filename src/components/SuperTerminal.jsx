@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { profile, experience, skills, projects, education, certifications } from '../data/portfolioData';
 
-const GEMINI_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+const GEMINI_KEY = import.meta.env.GEMINI_API_KEY;
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_KEY}`;
 
 const SYSTEM_CONTEXT = `You are Xavier's AI terminal assistant embedded in his developer portfolio.
