@@ -102,7 +102,7 @@ export default function ProfileBlob({ showBadges = true }) {
         {/* Hero image */}
           <div className="absolute inset-0 flex items-center justify-center">
             <img
-              src="/src/assets/hero.png"
+              src="/hero.png"
               alt="Profile"
               style={{
                 width: '100%',
